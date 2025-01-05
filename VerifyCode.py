@@ -89,7 +89,8 @@ class VerifyCode(Plugin):
         if e_context["context"].type not in [
             ContextType.TEXT,
             ContextType.ACCEPT_FRIEND,
-            ContextType.FILE
+            ContextType.FILE,
+            ContextType.SHARING
         ]:
             return 
 
